@@ -1,0 +1,117 @@
+/* 
+TODO: Size images reduction 
+
+
+Fonts: Anton|Caveat+Brush|Montserrat|Staatliches
+*/
+
+body{
+    font-family: 'Teko';
+}
+
+.logo-container{
+    padding: 1% 0;
+}
+
+.logo-nav{
+    width: 15%;
+    margin-left: 5%;
+}
+
+nav{
+    background: black;
+    display: flex;
+    color: white;
+    font-size: 1.3em;
+}
+
+nav a:active, nav a:visited, nav a{
+    color: white;
+}
+
+nav a:hover{
+    color: #bbb;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+nav li{
+    margin-left: 5%;
+}
+
+.jumbotron{
+    display: flex;
+    background-image: url(../img/globos.jpg);
+    background-size: 100%;
+}
+
+#main-message{
+    height: 20vh;
+    margin: 2% 5% 6% 8%;
+    font-size: 7em;
+    font-family:Staatliches;
+    color: white;
+    text-shadow: -6px -7px #000, 5px 7px #fed800;
+}
+
+.more-categories{
+    height: 30vh;
+    background: black;
+}
+
+.more-categories img{
+    height: 110vh;
+    margin: -50vh 0px 0px 50vw;
+    transform: rotate(-50deg);
+}
+
+
+.categories{
+    background: url(../img/yellow-man.jpg);
+    display: flex;
+    justify-content: space-around
+}
+
+.cat a, .cat a:visited, .cat a:active{
+    color: black;
+    text-decoration: none;
+}
+
+.cat a:hover{
+    color: white;
+}
+
+.categories-2{
+    background: url(../img/yellow-man.jpg);
+    display: flex;
+    justify-content: space-between
+}
+
+.category{
+    font-size: 3em;
+}
+
+
+
+
+
+
+/* Other */
+
+
+/* levitate 3.3s alternate ease-in-out infinite; */
+@keyframes levitate {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, -50px);
+    }
+  }
+  

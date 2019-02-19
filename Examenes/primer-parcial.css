@@ -1,0 +1,50 @@
+body{
+    font-family: 'Noto Sans';
+}
+
+h1{
+    text-align: center
+}
+
+div{
+    padding: 10px;
+}
+
+.client-cdn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.frontend{
+    background: #FF715B;
+    color: white;
+}
+
+.frontend img{
+    width: 300px;
+}
+
+.backend img{
+    width: 300px;
+}
+
+.backend{
+    background: #4C5454;
+    color: white;
+}
+
+.html{
+    background: #1EA896;
+    color: white;
+    text-align: center
+}
+
+article{
+    width: 40%;
+    text-align: center;
+    height: 50vh;
+}
+
+article img{
+    height: 40%;
+}

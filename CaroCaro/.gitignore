@@ -1,2 +1,4 @@
-img/
+*.png
+*.jpeg
+*.jpg
 js/plax.js

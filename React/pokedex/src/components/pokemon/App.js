@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Navbar from '../layout/Navbar';
-import PokemonCard from './pokemonCard'
+import PokemonList from './PokemonList'
 
 class App extends Component{
     render(){
@@ -8,7 +8,7 @@ class App extends Component{
             <div>
                 <Navbar/>
                 <p>Pokemon List</p>
-                <PokemonCard/>
+                <PokemonList/>
             </div>
         )
     }
